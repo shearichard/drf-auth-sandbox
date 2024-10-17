@@ -1,9 +1,9 @@
-# drf-cc-sandbox
+# drf-temp-auth-sandbox
 
 [![Build Status](https://travis-ci.org/shearichard/drf-cc-sandbox.svg?branch=master)](https://travis-ci.org/shearichard/drf-cc-sandbox)
 [![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
 
-Testing variants on authentication in DRF. Check out the project's [documentation](http://shearichard.github.io/drf-cc-sandbox/).
+Testing variants on authentication in DRF. 
 
 # Prerequisites
 
