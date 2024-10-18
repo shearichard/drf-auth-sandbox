@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/shearichard/drf-cc-sandbox.svg?branch=master)](https://travis-ci.org/shearichard/drf-cc-sandbox)
 [![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
 
-Exposing variants on authentication in Django Rest Framework to allow for demonstrations and training.
+Exposing various authentication options in Django Rest Framework to allow for demonstrations and training.
 
 # Prerequisites
 
