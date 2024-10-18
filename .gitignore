@@ -1,3 +1,6 @@
+# Hide sqlite db file
+db.sqlite3
+#  Hide the secret stuff
 .envrc
 # Byte-compiled / optimized / DLL files
 __pycache__/

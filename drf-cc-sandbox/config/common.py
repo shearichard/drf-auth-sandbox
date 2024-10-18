@@ -5,6 +5,7 @@ import dj_database_url
 from configurations import Configuration
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+USE_SQLITE=True
 
 class Common(Configuration):
 
@@ -51,12 +52,21 @@ class Common(Configuration):
     )
 
     # Postgres
-    DATABASES = {
-        'default': dj_database_url.config(
-            default='postgres://postgres:@postgres:5432/postgres',
-            conn_max_age=int(os.getenv('POSTGRES_CONN_MAX_AGE', 600))
-        )
-    }
+
+    if USE_SQLITE == True:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': f'''{BASE_DIR}/db.sqlite3'''
+            }
+        }
+    else:
+        DATABASES = {
+            'default': dj_database_url.config(
+                default='postgres://postgres:@postgres:5432/postgres',
+                conn_max_age=int(os.getenv('POSTGRES_CONN_MAX_AGE', 600))
+            )
+        }
 
     # General
     APPEND_SLASH = False
