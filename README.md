@@ -1,4 +1,4 @@
-# Django Rest Framework Authentication Demonstration
+# Django Rest Framework Authentication Demonstrator
 
 [![Build Status](https://travis-ci.org/shearichard/drf-cc-sandbox.svg?branch=master)](https://travis-ci.org/shearichard/drf-cc-sandbox)
 [![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
