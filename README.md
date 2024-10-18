@@ -1,9 +1,9 @@
-# drf-temp-auth-sandbox
+# Django Rest Framework Authentication Demonstration
 
 [![Build Status](https://travis-ci.org/shearichard/drf-cc-sandbox.svg?branch=master)](https://travis-ci.org/shearichard/drf-cc-sandbox)
 [![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
 
-Exposing variants on authentication in Django Rest Framework to allow for demonstration/education.
+Exposing variants on authentication in Django Rest Framework to allow for demonstrations and training.
 
 # Prerequisites
 
